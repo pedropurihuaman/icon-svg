@@ -1,0 +1,30 @@
+.cross-center {
+	/* Centramos verticalmente el ícono con el texto */
+	display: flex;
+	align-items: center;
+}
+
+.svg-icon {
+	position: relative;
+	top: 0.159rem;
+	/* Le asignamos un tamaño y un margen al ícono */
+	width: 1.3rem;
+	height: 1.3rem;
+	margin-right: 0.5rem;
+	fill: currentColor; /* currentColor actua como una variable tomando el valor que tenga el color de texto del padre del elemento. Si estás utilizando vectores que poseen distintos rellenos, omite esta línea de código*/
+}
+
+.button {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background-color: #1192ee;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+	line-height: inherit;
+	border-radius: 0.25rem;
+	border: 1px solid #1192ee;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+}
