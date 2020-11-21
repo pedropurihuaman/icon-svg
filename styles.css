@@ -6,11 +6,12 @@
 
 .svg-icon {
 	position: relative;
-	top: 0.159rem;
+	top: 0.151rem;
 	/* Le asignamos un tamaño y un margen al ícono */
 	width: 1.3rem;
 	height: 1.3rem;
 	margin-right: 0.5rem;
+	/* background-color: red; */
 	fill: currentColor; /* currentColor actua como una variable tomando el valor que tenga el color de texto del padre del elemento. Si estás utilizando vectores que poseen distintos rellenos, omite esta línea de código*/
 }
 
